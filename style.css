@@ -1,0 +1,70 @@
+/* :root{
+
+} */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(./background-img/11\ ink\ PowerPoint\ backgrounds\ &\ Google\ Slides.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.signUp{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 50px;
+    width: 500px;
+
+    background-color: #D3D3D3	;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .3);
+
+}
+.signUp h1{
+    text-align: center;
+    color: #DCDCDC;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px  solid #4B0082;
+}
+.signUp label{
+    text-align: left;
+    color: #2F4F4F	;
+}
+.signUp label::after{
+    content: '*';
+    color: red;
+}
+.signUp form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 20px;
+}
+.signUp form button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:white;
+    font-size: 18px;
+    color: #2979ff;
+}
+button:focus{
+    background-color: white;
+    color: red;
+    outline: 2px solid blue;
+}
+button:active{
+    outline: 2px solid red;
+}
